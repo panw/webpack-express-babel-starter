@@ -1,0 +1,28 @@
+{
+  "name": "webpack-starter",
+  "version": "1.0.0",
+  "description": "Basic starter code for Webpack, Express, and Babel",
+  "main": "server.js",
+  "scripts": {
+    "build:dev": "webpack-dev-server --config webpack-hot-dev-server.config.js --inline --hot --progress --colors",
+    "build:prod": "webpack --config webpack.config.js --progress --colors"
+  },
+  "keywords": [
+    "webpack",
+    "express",
+    "babel"
+  ],
+  "author": "Pan W",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "express": "^4.13.3"
+  },
+  "devDependencies": {
+    "babel-core": "^6.0.20",
+    "babel-loader": "^6.0.1",
+    "css-loader": "^0.21.0",
+    "style-loader": "^0.13.0",
+    "webpack": "^1.12.2",
+    "webpack-dev-server": "^1.12.1"
+  }
+}
